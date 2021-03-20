@@ -16,7 +16,7 @@ func main() {
   fmt.Println("Hello " + firstGreeting)
   fmt.Println("Hello " + secondGreeting)
 
-  // Someimes inputs are not "required" and we can build around that
+  // Someimes inputs are not "required"
   if thirdGreeting != "" {
     fmt.Println("Hello " + thirdGreeting)
     }
